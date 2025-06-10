@@ -1,0 +1,25 @@
+<resources>
+    <style name="Theme.AVMessenger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="dialoge">
+        <item name="android:windowBackground">@drawable/empty_background</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    
+<!--    Light Mode-->
+    <style name="SCREEN">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimary">@color/green</item>
+    </style>
+    <style name="SCREEN_DARK">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorPrimary">@color/green</item>
+    </style>
+</resources>
